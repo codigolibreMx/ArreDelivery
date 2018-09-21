@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Arre Delivery</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Font-awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <!-- Wow Animate -->
+  <link rel="stylesheet" href="css/animate.min.css">
+  <!-- Estilos independientes -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nordicafont.css">
+</head>
+<body>
+  <header >
+    <article class="container">
+      <p  class="hidden-sm-up"><a href="javascript:void(0)" onclick="openNav()"><i class="fas fa-bars fa-border"></i></a></p>
+      <section id="navbar-menu" class="navbar-menu">
+        <li>
+          <ul><a ref="javascript:void(0)" class="closebtn hidden-md-up" onclick="closeNav()"><i class="fas fa-times"></i></a></ul>
+          <ul><a href="#services" onclick="closeNav()">Servicios</a></ul>
+          <ul><a href="#aboutus" onclick="closeNav()">Nosotros</a></ul>
+          <ul><a href="">Registrate</a></ul>
+          <ul><a href="">Entrar</a></ul>
+        </li>
+      </section>
+    </article>
+  </header>
+  <main>
+    <article class="main-article d-flex flex-column justify-content-center">
+      <section class="text-center d-flex flex-column justify-content-around">
+        <img class="logo text-center" src="images/Logo.svg" alt="">
+        <h1>Lo mejor de la ciudad hasta la puerta de tu casa</h1>
+        <hr/>
+        <a href="#services" class="wow zoomIn" ><button  type="button" class="btn btn-danger btn-lg">Ordena aquí</button></a>
+      </section>
+    </article>
+    <article id="services" class="services container text-center">
+      <section class="text-center">
+        <h3>Nuestros servicios</h3>
+        <p>Pidelos a domicilio</p>
+        <div class="row">
+          <div class="col-sm-12 col-md-6 wow slideInLeft">
+            <img src="images/restaurant.jpg" alt="" class="img-thumbnail">
+            <p>Restaurantes</p>
+          </div>
+          <div class="col-sm-12 col-md-6 wow slideInRight">
+            <img src="images/drugstore.jpg" alt="" class="img-thumbnail">
+            <p>Farmacias</p>
+          </div>
+          <div class="col-sm-12 col-md-6 wow slideInLeft">
+            <img src="images/services.jpeg" alt="" class="img-thumbnail">
+            <p>Mandaditos</p>
+          </div>
+          <div class="col-sm-12 col-md-6 wow slideInRight">
+            <img src="images/shipping.jpeg" alt="" class="img-thumbnail">
+            <p>Envios</p>
+          </div>
+        </div>
+      </section>
+    </article>
+    <article id="aboutus" class="aboutus">
+      <section class="container">
+        <h3 class="text-center">Nosotros</h3>
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <p>Arre Delivery es un equipo que busca acercar  los comercios con las personas y de esta forma mejorar el servicios que estos ofrecen.</p>
+            <p>Fundada durante 2018 en Tepic, Nayarit, busca consolidar como lider en el medio de las entregas y servicios a domicilio. </p>
+          </div>
+          <div class="col-md-6 hidden-sm-down">
+            Logo aquí
+          </div>
+        </div>
+      </section>
+      <section class="text-center container">
+        <h3>El equipo</h3>
+        <div class="row">
+          <div class="col-md-3 col-sm-12">
+            <img class="img-thumbnail selfie-img rounded-circle" src="images/selfie.png" alt="">
+            <p>Ana Banana</p>
+            <p>Gerente General</p>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <img class="img-thumbnail selfie-img rounded-circle" src="images/selfie.png" alt="">
+            <p>Ana Banana</p>
+            <p>Gerente General</p>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <img class="img-thumbnail selfie-img rounded-circle" src="images/selfie.png" alt="">
+            <p>Ana Banana</p>
+            <p>Gerente General</p>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <img class="img-thumbnail selfie-img rounded-circle" src="images/selfie.png" alt="">
+            <p>Ana Banana</p>
+            <p>Gerente General</p>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer>
+    <section class="container">
+      <div class="row">
+        <div class="col-md-4 hidden-sm-down">
+          <li>
+            <ul><a href="#services" onclick="closeNav()">Servicios</a></ul>
+            <ul><a href="#aboutus" onclick="closeNav()">Nosotros</a></ul>
+            <ul><a href="">Registrate</a></ul>
+            <ul><a href="">Entrar</a></ul>
+          </li>
+        </div>
+        <div class="col-md-4">
+          <p>Domicilio:</p>
+          <p>Calle Falsa #123</p>
+          <p>Haz tu pedido: 2124455</p>
+          <p>contacto@arredelivery.mx</p>
+        </div>
+        <div class="col-md-4">
+          <p>Siguenos en Redes sociales</p>
+          <div class="row hidden-sm-down">
+            <div class="col-sm-4"><a href=""><i class="fab fa-facebook"></i></a></div>
+            <div class="col-sm-4"><a href=""><i class="fab fa-twitter"></i></a></div>
+            <div class="col-sm-4"><a href=""><i class="fab fa-youtube"></i></a></div>
+          </div>
+        </div>
+      </div>
+      <p class="text-center">Arre Delivery 2018 - Magic by <a href="wixaengineering.mx"><span style="color: #e57d1f">W</span><span style="color:#eec10e">i</span><span style="color:#2dcc71">x</span><span style="color:	#169f83">a</span> Engineering</a></p>
+    </section>
+  </footer>
+  <script src="js/wow.min.js" ></script>
+  <script src="js/app.js" ></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+</body>
+</html>
