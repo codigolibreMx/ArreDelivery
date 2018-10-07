@@ -3,8 +3,16 @@ body{
   font-weight: 100;
 }
 a{
-  text-decoration: none;
   color: white
+}
+ a:visited, a:link, a:active
+{
+    color: white;
+    text-decoration: none !important;
+}
+a:hover{
+  color: blue;
+  text-decoration: underline;
 }
 header{
   background-color: #E0A300;
@@ -28,6 +36,15 @@ ul{
 article{
   padding: 15px 0px;
 }
+main{
+  margin-top: 50px;
+}
+.store-icon{
+  width: 100%;
+}
+.table a{
+  color:black;
+}
 .main-article{
   margin-top:40px;
   min-height: 100vh;
@@ -50,6 +67,11 @@ article{
 }
 .services img{
   max-width: 60%;
+}
+.stores{
+
+min-height: 100vh;
+
 }
 
 .aboutus{
@@ -90,6 +112,9 @@ article{
 @media screen and (max-width: 479px) {
      /* start of phone styles */
      /* It's possible to hide the image if the screen becomes too small */
+     .table td{
+       padding: .25rem;
+     }
      .main-article{
        background: url(../images/motogray2-sm.jpg) no-repeat center center fixed;
        color: white;
@@ -125,4 +150,12 @@ article{
            }
          }
      }
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
 }
