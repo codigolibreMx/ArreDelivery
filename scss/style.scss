@@ -39,11 +39,37 @@ article{
 main{
   margin-top: 50px;
 }
+
 .store-icon{
   width: 100%;
+  min-width: 50px;
+  max-width: 80px;
 }
 .table a{
   color:black;
+}
+.signin-col form{
+    display: inline-block;
+    min-width: 85%;
+    button{
+      width: 100%;
+    }
+    input{
+        background-color: rgba(255,165,0, 0.75);
+        border: none;
+        text-align: center;
+        color: white;
+
+    }
+    input::placeholder {
+       text-align: center;
+       color: white;
+    }
+}
+
+.signin-logo{
+  filter: drop-shadow( -4px -4px 4px #000 );
+  max-width: 70%
 }
 .main-article{
   margin-top:40px;

@@ -27,50 +27,33 @@
           <ul><a href="#aboutus" onclick="closeNav()">Nosotros</a></ul>
           <ul><a href="">Registrate</a></ul>
           <ul><a href="">Entrar</a></ul>
-          <ul><a href=""><i class="fas fa-shopping-cart"></i></a></ul>
         </li>
       </section>
     </article>
   </header>
   <main>
-    <article id="stores" class="stores container text-center">
-      <section class="text-center">
-        <h3>Restaurantes</h3>
-        <p>¡Recibelo hasta la puerta de tu casa!</p>
-        <table class="table">
-          <thead class="text-left">
-            <tr>
-              <th></th>
-              <th style="width: 90%">Nombre</th>
-            </tr>
-          </thead>
-          <tbody class="text-left">
-            <tr>
-              <td><a href="products.html"><img class="store-icon" src="images/restaurants/starbucks.png" alt=""></a></td>
-              <td>
-                <p><a href="products.html">Starbucks</a></p>
-                <p>
-                  <small>Restaurantes</small>
-                </p>
-                <p>
-                  <small>Abre de 7:00 am a 10:00 pm.</small>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td><a href="products.html"><img class="store-icon" src="images/restaurants/starbucks.png" alt=""></a></td>
-              <td>
-                <p><a href="products.html">Starbucks</a></p>
-                <p>
-                  <small>Restaurantes</small>
-                </p>
-                <p>
-                  <small>Abre de 7:00 am a 10:00 pm. <span class="text-danger">Este establecimiento no se encuentra abierto ahora.</span></small>
-                </p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+    <article class="main-article signin d-flex flex-column justify-content-center">
+      <section class="text-center d-flex flex-column justify-content-around">
+        <div class="row">
+          <div class="col-md-7 hidden-sm-down">
+            <img class="signin-logo text-center" src="images/Logo.svg" alt="">
+          </div>
+          <div class="col-md-5  signin-col col-sm-12">
+            <h1>Entrar</h1>
+            <p class="bg-warning text-white">Los datos proporcionados no coinciden con los registrados.</p>
+            <form class="text-center">
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo Electronico">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+            <hr/>
+            <p class="text-light"><a href="">Registrate</a> - <a href="">Recuperar mi contraseña</a></p>
+          </div>
+        </div>
       </section>
     </article>
   </main>
