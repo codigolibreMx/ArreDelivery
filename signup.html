@@ -27,86 +27,41 @@
           <ul><a href="#aboutus" onclick="closeNav()">Nosotros</a></ul>
           <ul><a href="">Registrate</a></ul>
           <ul><a href="">Entrar</a></ul>
-          <ul><a href=""><i class="fas fa-shopping-cart"></i></a></ul>
         </li>
       </section>
     </article>
   </header>
   <main>
-    <article id="products" class="stores container text-center">
-      <section class="text-center">
-        <h3>Resumen del pedido</h3>
-        <p>¿Todo esta bien?</p>
+    <article class="main-article signin d-flex flex-column justify-content-center">
+      <section class="text-center d-flex flex-column justify-content-around">
         <div class="row">
-          <div class="col-md-6">
-            <table class="table">
-              <thead class="text-left">
-                <tr>
-                  <th></th>
-                  <th style="width: 70%">Nombre</th>
-                  <th>Cantidad</th>
-                  <th></th>
-                </tr>
-              </thead>
-              <tbody class="text-left">
-                <tr>
-                  <td><img class="store-icon" src="images/products/starbucks/coffeestarbucks.png" alt=""></td>
-                  <td>
-                    <p>Cafe del dia alto</p>
-                    <p>
-                      <small>Establecimiento: Starbuck</small>
-                    </p>
-                    <p>
-                      <small>Precio $35</small>
-                    </p>
-                  </td>
-                  <td>5</td>
-                  <td>
-                    <a href="#" class="btn btn-sm btn-warning"><i class="fas fa-minus"></i></a>
-                    <a href="#" class="btn btn-sm btn-warning"><i class="fas fa-plus"></i></a>
-                  </td>
-                </tr>
-                <tr>
-                  <td><img class="store-icon" src="images/products/starbucks/coffeestarbucks.png" alt=""></td>
-                  <td>
-                    <p>Cafe del dia grande</p>
-                    <p>
-                      <small>Establecimiento: Starbuck</small>
-                    </p>
-                    <p>
-                      <small>Precio $45</small>
-                    </p>
-                  </td>
-                  <td>5</td>
-                  <td>
-                    <a href="#" class="btn btn-sm btn-warning"><i class="fas fa-minus"></i></a>
-                    <a href="#" class="btn btn-sm btn-warning"><i class="fas fa-plus"></i></a>
-                  </td>
-                </tr>
-              </tbody>
-              <tfoot>
-                <td></td>
-                <td>Total</td>
-                <td>$5464 MXN</td>
-                <td>7S</td>
-              </tfoot>
-            </table>
+          <div class="col-md-7 hidden-sm-down">
+            <img class="signin-logo text-center" src="images/Logo.svg" alt="">
           </div>
-          <div class="col-md-6">
-            <form>
+          <div class="col-md-5  signin-col col-sm-12">
+            <h1>Registrate</h1>
+            <form class="text-center">
+              <div class="form-group row">
+                <input type="text" class="form-control col" id="nombre" name="nombre" placeholder="Nombre">
+              </div>
+                <div class="form-group row">
+                  <input type="text" class="form-control col" id="apellidoP" name="apellidoP" placeholder="Apellido Paterno">
+                  <input type="text" class="form-control col" id="apellidoM" name="apellidoM" placeholder="Apellido Materno">
+                </div>
               <div class="form-group">
-                <label for="formGroupExampleInput">¿Quien recibe?</label>
-                <input type="text" class="form-control" value="Nombre del usuario" id="formGroupExampleInput" placeholder="Example input">
+                <input type="email" class="form-control" id="correo" Name="correo" aria-describedby="emailHelp" placeholder="Correo Electronico">
               </div>
               <div class="form-group">
-                <label for="formGroupExampleInput2">Domicilio</label>
-                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="# Av. Mexico Col. Centro">
+                <input type="password" class="form-control" id="clave" name="clave" placeholder="Contraseña">
               </div>
               <div class="form-group">
-                <label for="exampleTextarea">Detalles del pedido</label>
-                <textarea class="form-control" id="exampleTextarea" placeholder="Alguna nota que pueda ayudar al equipo de Arre Delivery a hacer mejor tu pedido" rows="3"></textarea>
+                <input type="text" class="form-control" id="celular" name="celular" placeholder="Celular">
               </div>
-              <button type="submit" class="btn btn-primary">Pedir</button>
+              <div class="form-group">
+                <label for="comment">Direccion:</label>
+                <textarea class="form-control" placeholder="Calle arredelivery #123" rows="5" id="direccion" name="direccion"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
           </div>
         </div>

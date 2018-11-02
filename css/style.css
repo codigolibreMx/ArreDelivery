@@ -51,7 +51,7 @@ main {
   min-width: 85%; }
   .signin-col form button {
     width: 100%; }
-  .signin-col form input {
+  .signin-col form input, .signin-col form textarea {
     background-color: rgba(255, 165, 0, 0.75);
     border: none;
     text-align: center;
